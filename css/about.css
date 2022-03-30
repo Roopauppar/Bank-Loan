@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    height: 0px;
+}
+.top{
+    background-color: #861f41;
+}
+.logo{
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    padding-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+.txt{
+    color: white;
+}
+.txt:hover{
+    text-decoration: underline;
+ color:green;
+
+}
+/* text on image */
+.timg{
+    position: relative;
+    top: -400px;
+}
+/* need */
+.num {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.num:hover {
+    color: orange;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+.ass{
+    background-color: #dfd9d9;
+}
+.need-assistance{
+    background-color: bisque;  
+    padding-bottom: 100px;
+  }
+  /* FORM */
+  .call-form{
+      background-color: rgb(224, 119, 119);
+      border: 0px;
+      border-radius: 20px;
+      padding-bottom: 30px;
+  }
+  .assistance-form{
+      margin-top: -90px;
+      
+  }
+  .form-text{
+      margin-top: -100px;
+      color: white;
+  }
+  .form-button{
+  width: 80px;
+  margin-left: 20px;
+  }
+/* * bottom img */ 
+.btimg{
+    margin-left: 550px;
+}
+/* go top button */
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: white;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}

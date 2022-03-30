@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    height: 0px;
+}
+.top{
+    background-color: #861f41;
+}
+.logo{
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    padding-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+.txt{
+    color: white;
+}
+.txt:hover{
+    text-decoration: underline;
+ color:green;
+
+}
+/* faq */
+/* .faqs{
+    position: relative;
+    top:-350px
+} */
+/* .quest{
+    position: relative;
+    top: -350px;
+} */
+.back{
+    height: 450px;
+    background-color: #e4e4e4;
+}
+
+.search{
+    padding-left:200px ;
+}
+/* * bottom img */ 
+.btimg{
+    margin-left: 550px;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    height: 0px;
+}
+.top{
+    background-color: #861f41;
+}
+.logo{
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    padding-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+.txt{
+    color: white;
+}
+.txt:hover{
+    text-decoration: underline;
+ color:green;
+
+}
+/* third bar */
+.tnav{
+    background-color:#bdbaba;
+    
+}
+
+.trnav:hover{
+    color:black;
+    background-color: rgb(248, 184, 184);
+}
+/* apply now */
+.bat{
+    padding-left: 30%;
+}
+/* top image */
+.ser{
+    margin-top: 120px;
+}
+/* ser beside */
+.cr{
+    background-color: rgb(114, 206, 248);
+}
+/* card */
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+.ass{
+    background-color: #dfd9d9;
+}
+/* number */
+.num {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.num:hover {
+    color: orange;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+/* * bottom img */ 
+.btimg{
+    margin-left: 550px;
+}
+/* go top button */
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: white;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}

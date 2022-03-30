@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    height: 0px;
+}
+.top{
+    background-color: #861f41;
+}
+.logo{
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    /* padding-bottom: 10px; */
+    padding-right: 5px;
+    width: 80px;
+    height: 100px;
+}
+
+.txt{
+    color: white;
+}
+.txt:hover{
+    text-decoration: underline;
+ color:green;
+
+}
+/* faq */
+/* .faqs{
+    position: relative;
+    top:-350px
+} */
+/* .quest{
+    position: relative;
+    top: -350px;
+} */
+.back{
+    height: 450px;
+    background-color: #e4e4e4;
+}
+
+.search{
+    padding-left:200px ;
+}
+
+/* cards */
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+/* need assistance */
+.num {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.num:hover {
+    color: orange;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+.ass{
+    background-color: #dfd9d9;
+}
+.need-assistance{
+  background-color: bisque;  
+  padding-bottom: 100px;
+}
+/* FORM */
+.call-form{
+    background-color: rgb(224, 119, 119);
+    border: 0px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.assistance-form{
+    margin-top: -90px;
+    
+}
+.form-text{
+    margin-top: -100px;
+    color: white;
+}
+.form-button{
+width: 80px;
+margin-left: 20px;
+}
+/* BANK MANTRA */
+.backimg{
+    width: 102%;
+    height: 400px;
+    margin-top: 30px;
+    background-image: url("images/faq5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 75%; */
+  }
+  .backimg .bank-mantra{
+    background: rgb(0, 0, 0) ;
+    background: rgba(0, 0, 0, 0.6);
+    padding-bottom: 70px;
+  }
+/* bottom img */
+.btimg{
+    margin-left: 550px;
+}
